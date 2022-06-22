@@ -24,7 +24,7 @@ Those are my bspwm dotfiles.
 
 ## Download and installation
 
-Noob Command
+Noob command here
 
 ```
 mkdir -p ~/.config && git clone https://github.com/n1els3n/bspwm-dotfiles && cd bspwm-dotfiles/ && cp -r config/* ~/.config/. && cd .. && mkdir -p ~/Pictures/Wallpapers && cp -r wallpapers/* ~/Pictures/Wallpapers/. && cp zshrc ~/.zshrc && cp xinitrc ~/.xinitrc

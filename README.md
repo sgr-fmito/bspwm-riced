@@ -16,15 +16,9 @@ Those are my bspwm dotfiles.
 
 ![alt text](https://github.com/n1els3n/bspwm-dotfiles/blob/main/preview/1.png)
 
-<br/><br/>
-
 ![alt text](https://github.com/n1els3n/bspwm-dotfiles/blob/main/preview/2.png)
 
-<br/><br/>
-
 ![alt text](https://github.com/n1els3n/bspwm-dotfiles/blob/main/preview/3.png)
-
-<br/><br/>
 
 ### Be Careful!!: When you run the command it will make changes to your settings folder, so if you already have your own work in that folder it is recommended to make a backup.
 

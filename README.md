@@ -30,5 +30,5 @@ Noob command here
 mkdir -p ~/.config && git clone https://github.com/n1els3n/bspwm-dotfiles && cd bspwm-dotfiles/ && cp -r config/* ~/.config/. && cd .. && mkdir -p ~/Pictures/Wallpapers && cp -r wallpapers/* ~/Pictures/Wallpapers/. && cp zshrc ~/.zshrc && cp xinitrc ~/.xinitrc
 ```
 
-### Recommendations for you
+### Please Read
 If you go to these settings remember to check the file paths, also in case of polybar settings, check the settings for temperature modules, network because they are different for other devices, you can configure it from [here](https://github.com/adi1090x/polybar-themes) since my bar is originally from [adi1090x](https://github.com/adi1090x) and I just changed the bar theme and the configurations for my device, also for neovim plugins it requires [vim-plug](https://github.com/junegunn/vim-plug) and [packer.nvim](https://github.com/wbthomason/packer.nvim), only you have to install the plugin managers and run their installation commands, about the other files, there should be no problem.

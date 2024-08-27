@@ -10,7 +10,7 @@ Those are my old bspwm setup.
 * **Notify Daemon**                : [Dunst](https://wiki.archlinux.org/index.php/Dunst)
 * **Application Launcher**         : [Rofi](https://github.com/davatorium/rofi)
 * **File Manager**                 : [ranger](https://github.com/ranger/ranger)
-* **Text Editor (Outdated)**                  : [nvim](https://github.com/neovim/neovim) with [vim-plug](https://github.com/junegunn/vim-plug) and [packer.nvim](https://github.com/wbthomason/packer.nvim)
+* **Text Editor (Outdated)**       : [nvim](https://github.com/neovim/neovim) with [vim-plug](https://github.com/junegunn/vim-plug) and [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ### Preview
 
@@ -20,15 +20,5 @@ Those are my old bspwm setup.
 
 ![alt text](https://github.com/n1els3n/bspwm-dotfiles/blob/main/preview/3.png)
 
-## idkwhatimdoing.sh (Creating a local script is unnecessary, you can just remove the echo and the quotes to run the command.)
-Create a script that does everything in one command
-```
-echo "mkdir -p ~/.config && git clone https://github.com/n1els3n/bspwm-dotfiles && cd bspwm-dotfiles/ && cp -r config/* ~/.config/. && cd .. && mkdir -p ~/Pictures/Wallpapers && cp -r wallpapers/* ~/Pictures/Wallpapers/. && cp zshrc ~/.zshrc && cp xinitrc ~/.xinitrc" >> idkwhatimdoing.sh
-```
-Give the script execution permissions and run it
-```
-chmod +x idkwhatimdoing.sh && bash idkwhatimdoing.sh
-```
-
-### Please Read (Outdated)
-Please check the file paths, also check the settings for temperature modules, network, etc for polybar because they are different for other devices, check this repo for more info [here](https://github.com/adi1090x/polybar-themes) btw the bar is originally from [adi1090x](https://github.com/adi1090x), neovim plugins work with [packer.nvim](https://github.com/wbthomason/packer.nvim) and [vim-plug](https://github.com/junegunn/vim-plug), but it's not great to use both at the same time. I recommend using lazy or just one to avoid conflicts or weird stuff.
+### Info
+Check the file paths and also the settings for temperature modules, network, etc for polybar, because they’re different for other devices, check this repo for more info [here](https://github.com/adi1090x/polybar-themes) Neovim plugins work with [packer.nvim](https://github.com/wbthomason/packer.nvim) and [vim-plug](https://github.com/junegunn/vim-plug) at the same time. I recommend using lazy or just one to avoid conflicts or weird stuff.

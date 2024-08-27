@@ -11,7 +11,7 @@
 * **Text Editor (Outdated)**       : [nvim](https://github.com/neovim/neovim) with [vim-plug](https://github.com/junegunn/vim-plug) and [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ### Info
-Check the file paths and also the settings for temperature modules, network, etc for polybar, because they’re different for other devices, more info in this repo [here](https://github.com/adi1090x/polybar-themes). Neovim plugins work with [packer.nvim](https://github.com/wbthomason/packer.nvim) and [vim-plug](https://github.com/junegunn/vim-plug) at the same time so it might cause issues. I recommend using lazy or just one.
+Check the file paths and also the settings for temperature modules, network, etc for polybar, because they’re different for other devices, more info in this [repo](https://github.com/adi1090x/polybar-themes). Neovim plugins work with [packer.nvim](https://github.com/wbthomason/packer.nvim) and [vim-plug](https://github.com/junegunn/vim-plug) at the same time so it might cause issues. I recommend using lazy or just one.
 
 ### Preview
 
